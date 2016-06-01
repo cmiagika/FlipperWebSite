@@ -2,15 +2,27 @@
 <html>
 <head>
     <link rel="stylesheet" href="/css/bootstrap.css">
+    <script src="Scripts/jquery-1.12.4.js"></script>
     <script src="Scripts/bootstrap.js"></script>
     <script src="Scripts/angular.js"></script>
-    <script src="Scripts/jquery-1.12.4.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+
+    <script src="Controller/app.js"></script>
     <title>My Flipper</title>
 </head>
-<body>
+<body ng-app="myApp" ng-controller="mainController">
 
 <h1>Flipper</h1>
+
+<ul>
+    <li><a href="#/">Home</a></li>
+    <li><a href="#/about">About</a></li>
+    <li><a href="#/contact">Contact</a></li>
+</ul>
+
 <p>Coming soon...</p>
+
+<div ng-view></div>
 
 </body>
 </html> 
