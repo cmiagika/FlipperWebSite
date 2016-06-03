@@ -41,6 +41,7 @@ body {
 }
 .mainTitle {
     margin-top: 50px;
+    margin-left: 100px;
 }
 h1{
     color: #c0bfc4;
@@ -59,7 +60,7 @@ h4{
     color: #c0bfc4;
 }
 .row {
-    margin-left: 300px;
+    margin-left: 250px;
     color: #c0bfc4;
 }
 .textContainer {
@@ -67,6 +68,7 @@ h4{
     width: 400px;
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 50px;
     padding: 20px;
     border: rgba(35, 35, 35, 1) 2pt solid;
     border-radius: 10px;
