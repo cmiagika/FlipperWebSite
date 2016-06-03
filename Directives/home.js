@@ -1,5 +1,10 @@
-myApp.controller("homeController", ["$scope", "$log", function ($scope, $log) {
+(function () {
+    "use strict";
 
+    function Controller($scope) {
 
+    }
 
-}]);
+    myApp.controller("contactController", Controller);
+
+})();
