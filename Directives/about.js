@@ -1,3 +1,5 @@
-/**
- * Created by ismi on 01.06.2016.
- */
+myApp.controller("aboutController", ["$scope", "$log", function($scope, $log) {
+
+
+
+}]);

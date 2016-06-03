@@ -1,3 +1,11 @@
-/**
- * Created by ismi on 01.06.2016.
- */
+
+(function () {
+    "use strict";
+
+    function Controller($scope) {
+
+    }
+
+    myApp.controller("contactController", Controller);
+
+})();
