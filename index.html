@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
     <script src="Scripts/jquery-1.12.4.js"></script>
     <script src="Scripts/bootstrap.js"></script>
     <script src="Scripts/angular.js"></script>
@@ -14,19 +15,25 @@
 
     <title>My Flipper</title>
 </head>
-<body background="Content/underConstruction.jpg" ng-app="myApp" ng-controller="mainController">
+<body ng-app="myApp" ng-controller="mainController">
 
-<h1>Flipper</h1>
+<div class="headerBalken">
+    <div class="navCentered">
+        <ul class="navigation">
+            <li><a id="aHome" class="box boxShadow" href="#/">Home</a></li>
+            <li><a id="aAbout" class="box" href="#/about">About</a></li>
+            <li><a id="aContact" class="box" href="#/contact">Contact</a></li>
+        </ul>
+    </div>
+</div>
 
-<ul>
-    <li><a href="#/">Home</a></li>
-    <li><a href="#/about">About</a></li>
-    <li><a href="#/contact">Contact</a></li>
-</ul>
+<div class="mainContainer">
+    <div class="mainTitle">
+        <h1>Flipper</h1>
+    </div>
 
-<p>Coming soon...</p>
-
-<div ng-view></div>
+    <div ng-view></div>
+</div>
 
 </body>
 </html> 
